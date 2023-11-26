@@ -1,0 +1,132 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 11px;
+  background-color: aliceblue;
+  flex-wrap: wrap;
+  flex-shrink: -1;
+}
+.first-div{
+  padding: 30px;
+  margin: 15px;
+  text-align: center;
+  border: 2px solid#000;
+  width: 250px;
+  background-color:cornflowerblue;
+  border-radius: 15px;
+  box-shadow: 0 3px 4px #000;
+  cursor: pointer;
+
+}
+.first-div:hover{
+ font-size: 30px;
+ background-color:navy;
+}
+.class-div{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.first-div, .class-ul{
+  font-size: 22px;
+  list-style: none;
+  padding-right: 10px;
+}
+.class-ul{
+  background-color: transparent;
+  font-size: larger;
+  border: none;
+  outline: 2px double solid red;
+  padding-top: 15px;
+  max-width:40px;
+  margin-left: 70px;
+  border-radius: 35px;
+}
+
+.class-list{
+  display: flex;
+  font-size: 12px;
+  color: gray;
+}
+h2{
+  color: aliceblue;
+  font-weight: 200;
+}
+p{
+  color: whitesmoke;
+  font-size: 18px;
+}
+.second-div{
+  display: grid;
+  background-color: white;
+  width: 300px;
+  border-radius: 15px;
+  
+}
+.div-class,
+.div-class1,
+.div-class2,
+.div-class0{
+  font-size: 15px;
+  padding: 8px;
+  margin: 5px 15px;
+  border-radius: 15px;
+  box-shadow: 0px 3px 3px #000;
+  cursor: pointer;
+
+}
+.div-class2:hover{
+  font-size: 20px;
+}
+.div-class:hover{
+  font-size: 20px;
+}
+.div-class1:hover{
+  font-size: 20px;
+}
+.div-class0:hover{
+  font-size: 20px;
+}
+.div-class0{
+  color: red;
+  background-color: #f2dcdc;
+}
+.div-class{
+  color: gold;
+  background-color: rgb(210, 207, 194);
+}
+.div-class1{
+  color: green;
+  background-color:rgb(134, 144, 152);
+}
+.div-class2{
+  color: blueviolet;
+  background-color:rgb(108, 122, 134) ;
+}
+input{
+  padding: 15px;
+  background-color: #282626;
+  border-radius: 45px;
+  margin: 5px 10px;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+.paragraph{
+  color: #000;
+  font-size: 22px;
+  margin-left: 15px;
+
+}
+img, .img-div, .Reaction{
+  margin: 5px;
+  display: inline-flex;
+}
+.Reaction{
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+  color: gray;
+}
